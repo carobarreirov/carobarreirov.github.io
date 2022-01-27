@@ -17,18 +17,18 @@
   --pink: #e83e8c;
   --red: #dc3545;
   --orange: #fd7e14;
-  --yellow: #ed2633;
+  --yellow: #bf656a;
   --green: #28a745;
   --teal: #20c997;
   --cyan: #17a2b8;
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #ed2633;
+  --primary: #bf656a;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
-  --warning: #ed2633;
+  --warning: #bf656a;
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
@@ -72,9 +72,9 @@ section {
 
 body {
   margin: 0;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -178,12 +178,12 @@ sup {
 }
 
 a {
-  color: #ed2633;
+  color: #bf656a;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #f54a47;
+  color: #db979f;
   text-decoration: underline;
 }
 
@@ -390,9 +390,9 @@ h6,
 .h5,
 .h6 {
   margin-bottom: 0.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
 }
@@ -2618,8 +2618,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #ed2633;
-  border-color: #ed2633;
+  background-color: #bf656a;
+  border-color: #bf656a;
 }
 .btn-primary:hover {
   color: #fff;
@@ -2636,15 +2636,15 @@ fieldset:disabled a.btn {
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #fff;
-  background-color: #ed2633;
-  border-color: #ed2633;
+  background-color: #bf656a;
+  border-color: #bf656a;
 }
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
   background-color: #d41231;
-  border-color: #ed2633;
+  border-color: #bf656a;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -2762,8 +2762,8 @@ fieldset:disabled a.btn {
 
 .btn-warning {
   color: #fff;
-  background-color: #ed2633;
-  border-color: #ed2633;
+  background-color: #bf656a;
+  border-color: #bf656a;
 }
 .btn-warning:hover {
   color: #fff;
@@ -2780,15 +2780,15 @@ fieldset:disabled a.btn {
 .btn-warning.disabled,
 .btn-warning:disabled {
   color: #fff;
-  background-color: #ed2633;
-  border-color: #ed2633;
+  background-color: #bf656a;
+  border-color: #bf656a;
 }
 .btn-warning:not(:disabled):not(.disabled):active,
 .btn-warning:not(:disabled):not(.disabled).active,
 .show > .btn-warning.dropdown-toggle {
   color: #fff;
   background-color: #d41231;
-  border-color: #ed2633;
+  border-color: #bf656a;
 }
 .btn-warning:not(:disabled):not(.disabled):active:focus,
 .btn-warning:not(:disabled):not(.disabled).active:focus,
@@ -2905,13 +2905,13 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #ed2633;
-  border-color: #ed2633;
+  color: #bf656a;
+  border-color: #bf656a;
 }
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #ed2633;
-  border-color: #ed2633;
+  background-color: #bf656a;
+  border-color: #bf656a;
 }
 .btn-outline-primary:focus,
 .btn-outline-primary.focus {
@@ -2919,15 +2919,15 @@ fieldset:disabled a.btn {
 }
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
-  color: #ed2633;
+  color: #bf656a;
   background-color: transparent;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active,
 .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #ed2633;
-  border-color: #ed2633;
+  background-color: #bf656a;
+  border-color: #bf656a;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
 .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
@@ -3029,13 +3029,13 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-warning {
-  color: #ed2633;
-  border-color: #ed2633;
+  color: #bf656a;
+  border-color: #bf656a;
 }
 .btn-outline-warning:hover {
   color: #fff;
-  background-color: #ed2633;
-  border-color: #ed2633;
+  background-color: #bf656a;
+  border-color: #bf656a;
 }
 .btn-outline-warning:focus,
 .btn-outline-warning.focus {
@@ -3043,15 +3043,15 @@ fieldset:disabled a.btn {
 }
 .btn-outline-warning.disabled,
 .btn-outline-warning:disabled {
-  color: #ed2633;
+  color: #bf656a;
   background-color: transparent;
 }
 .btn-outline-warning:not(:disabled):not(.disabled):active,
 .btn-outline-warning:not(:disabled):not(.disabled).active,
 .show > .btn-outline-warning.dropdown-toggle {
   color: #fff;
-  background-color: #ed2633;
-  border-color: #ed2633;
+  background-color: #bf656a;
+  border-color: #bf656a;
 }
 .btn-outline-warning:not(:disabled):not(.disabled):active:focus,
 .btn-outline-warning:not(:disabled):not(.disabled).active:focus,
@@ -3154,11 +3154,11 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #ed2633;
+  color: #bf656a;
   text-decoration: none;
 }
 .btn-link:hover {
-  color: #f54a47;
+  color: #db979f;
   text-decoration: underline;
 }
 .btn-link:focus,
@@ -3440,7 +3440,7 @@ input[type="button"].btn-block {
 .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #ed2633;
+  background-color: #bf656a;
 }
 .dropdown-item.disabled,
 .dropdown-item:disabled {
@@ -3796,8 +3796,8 @@ input[type="button"].btn-block {
 }
 .custom-control-input:checked ~ .custom-control-label::before {
   color: #fff;
-  border-color: #ed2633;
-  background-color: #ed2633;
+  border-color: #bf656a;
+  background-color: #bf656a;
 }
 .custom-control-input:focus ~ .custom-control-label::before {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 54, 0.25);
@@ -3856,8 +3856,8 @@ input[type="button"].btn-block {
 .custom-checkbox
   .custom-control-input:indeterminate
   ~ .custom-control-label::before {
-  border-color: #ed2633;
-  background-color: #ed2633;
+  border-color: #bf656a;
+  background-color: #bf656a;
 }
 .custom-checkbox
   .custom-control-input:indeterminate
@@ -4076,7 +4076,7 @@ input[type="button"].btn-block {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #ed2633;
+  background-color: #bf656a;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out,
@@ -4107,7 +4107,7 @@ input[type="button"].btn-block {
 .custom-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #ed2633;
+  background-color: #bf656a;
   border: 0;
   border-radius: 1rem;
   -moz-transition: background-color 0.15s ease-in-out,
@@ -4141,7 +4141,7 @@ input[type="button"].btn-block {
   margin-top: 0;
   margin-right: 0.2rem;
   margin-left: 0.2rem;
-  background-color: #ed2633;
+  background-color: #bf656a;
   border: 0;
   border-radius: 1rem;
   -ms-transition: background-color 0.15s ease-in-out,
@@ -4265,7 +4265,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #ed2633;
+  background-color: #bf656a;
 }
 
 .nav-fill > .nav-link,
@@ -4940,13 +4940,13 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #ed2633;
+  color: #bf656a;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
 .page-link:hover {
   z-index: 2;
-  color: #f54a47;
+  color: #db979f;
   text-decoration: none;
   background-color: #e9ecef;
   border-color: #dee2e6;
@@ -4969,8 +4969,8 @@ input[type="button"].btn-block {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #ed2633;
-  border-color: #ed2633;
+  background-color: #bf656a;
+  border-color: #bf656a;
 }
 .page-item.disabled .page-link {
   color: #6c757d;
@@ -5048,7 +5048,7 @@ a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #ed2633;
+  background-color: #bf656a;
 }
 a.badge-primary:hover,
 a.badge-primary:focus {
@@ -5108,7 +5108,7 @@ a.badge-info.focus {
 
 .badge-warning {
   color: #fff;
-  background-color: #ed2633;
+  background-color: #bf656a;
 }
 a.badge-warning:hover,
 a.badge-warning:focus {
@@ -5343,7 +5343,7 @@ a.badge-dark.focus {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #ed2633;
+  background-color: #bf656a;
   transition: width 0.6s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -5435,8 +5435,8 @@ a.badge-dark.focus {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #ed2633;
-  border-color: #ed2633;
+  background-color: #bf656a;
+  border-color: #bf656a;
 }
 .list-group-item + .list-group-item {
   border-top-width: 0;
@@ -6517,7 +6517,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #ed2633 !important;
+  background-color: #bf656a !important;
 }
 
 a.bg-primary:hover,
@@ -6561,7 +6561,7 @@ button.bg-info:focus {
 }
 
 .bg-warning {
-  background-color: #ed2633 !important;
+  background-color: #bf656a !important;
 }
 
 a.bg-warning:hover,
@@ -6653,7 +6653,7 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-  border-color: #ed2633 !important;
+  border-color: #bf656a !important;
 }
 
 .border-secondary {
@@ -6669,7 +6669,7 @@ button.bg-dark:focus {
 }
 
 .border-warning {
-  border-color: #ed2633 !important;
+  border-color: #bf656a !important;
 }
 
 .border-danger {
@@ -10226,12 +10226,12 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #ed2633 !important;
+  color: #bf656a !important;
 }
 
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #f54a47 !important;
+  color: #db979f !important;
 }
 
 .text-secondary {
@@ -10262,12 +10262,12 @@ a.text-info:focus {
 }
 
 .text-warning {
-  color: #ed2633 !important;
+  color: #bf656a !important;
 }
 
 a.text-warning:hover,
 a.text-warning:focus {
-  color: #f54a47 !important;
+  color: #db979f !important;
 }
 
 .text-danger {
@@ -10468,12 +10468,12 @@ p {
   }
 }
 ::-moz-selection {
-  background: #ed2633;
+  background: #bf656a;
   text-shadow: none;
 }
 
 ::selection {
-  background: #ed2633;
+  background: #bf656a;
   text-shadow: none;
 }
 
@@ -10491,9 +10491,9 @@ img::-moz-selection {
 
 .btn-xl {
   padding: 1.25rem 2.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.125rem;
   font-weight: 700;
 }
@@ -10515,20 +10515,20 @@ img::-moz-selection {
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.75rem;
   color: #fff;
   text-transform: uppercase;
-  background-color: #ed2633;
+  background-color: #bf656a;
   border: 0;
 }
 #mainNav .navbar-brand {
-  color: #ed2633;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #bf656a;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   letter-spacing: 0.0625em;
   text-transform: uppercase;
@@ -10537,16 +10537,16 @@ img::-moz-selection {
   height: 1.5rem;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
   color: #fff;
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #ed2633;
+  color: #bf656a;
 }
 
 @media (min-width: 992px) {
@@ -10609,9 +10609,9 @@ header.masthead .masthead-heading {
   font-weight: 700;
   line-height: 3.25rem;
   margin-bottom: 2rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 @media (min-width: 768px) {
@@ -10647,7 +10647,7 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(51, 17, 52, 0.7);
+  background: rgba(163, 90, 91, 0.7);
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -10671,9 +10671,9 @@ header.masthead .masthead-heading {
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   margin-bottom: 0;
 }
@@ -10784,7 +10784,7 @@ header.masthead .masthead-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #ed2633;
+  background-color: #bf656a;
 }
 .timeline > li .timeline-image h4 {
   font-size: 10px;
@@ -10942,34 +10942,34 @@ section#contact form#contactForm p.help-block {
   margin: 0;
 }
 section#contact form#contactForm .form-control:focus {
-  border-color: #ed2633;
+  border-color: #bf656a;
   box-shadow: none;
 }
 section#contact form#contactForm ::-webkit-input-placeholder {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   color: #ced4da;
 }
 section#contact form#contactForm :-moz-placeholder {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   color: #ced4da;
 }
 section#contact form#contactForm ::-moz-placeholder {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   color: #ced4da;
 }
 section#contact form#contactForm :-ms-input-placeholder {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   color: #ced4da;
 }
@@ -10977,7 +10977,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 .footer {
   text-align: center;
   font-size: 0.9rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
 }
