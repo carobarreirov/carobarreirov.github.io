@@ -2623,14 +2623,14 @@ fieldset:disabled a.btn {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #ae0a34;
-  border-color: #d41231;
+  background-color: #a35a5b;
+  border-color: #844849;
 }
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
-  background-color: #ae0a34;
-  border-color: #d41231;
+  background-color: #a35a5b;
+  border-color: #844849;
   box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
 }
 .btn-primary.disabled,
@@ -2643,7 +2643,7 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #d41231;
+  background-color: #844849;
   border-color: #bf656a;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus,
@@ -2767,14 +2767,14 @@ fieldset:disabled a.btn {
 }
 .btn-warning:hover {
   color: #fff;
-  background-color: #ae0a34;
-  border-color: #d41231;
+  background-color: #a35a5b;
+  border-color: #844849;
 }
 .btn-warning:focus,
 .btn-warning.focus {
   color: #fff;
-  background-color: #ae0a34;
-  border-color: #d41231;
+  background-color: #a35a5b;
+  border-color: #844849;
   box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
 }
 .btn-warning.disabled,
@@ -2787,7 +2787,7 @@ fieldset:disabled a.btn {
 .btn-warning:not(:disabled):not(.disabled).active,
 .show > .btn-warning.dropdown-toggle {
   color: #fff;
-  background-color: #d41231;
+  background-color: #844849;
   border-color: #bf656a;
 }
 .btn-warning:not(:disabled):not(.disabled):active:focus,
@@ -5053,7 +5053,7 @@ a.badge:focus {
 a.badge-primary:hover,
 a.badge-primary:focus {
   color: #fff;
-  background-color: #d41231;
+  background-color: #844849;
 }
 a.badge-primary:focus,
 a.badge-primary.focus {
@@ -5113,7 +5113,7 @@ a.badge-info.focus {
 a.badge-warning:hover,
 a.badge-warning:focus {
   color: #fff;
-  background-color: #d41231;
+  background-color: #844849;
 }
 a.badge-warning:focus,
 a.badge-warning.focus {
@@ -6524,7 +6524,7 @@ a.bg-primary:hover,
 a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #d41231 !important;
+  background-color: #844849 !important;
 }
 
 .bg-secondary {
@@ -6568,7 +6568,7 @@ a.bg-warning:hover,
 a.bg-warning:focus,
 button.bg-warning:hover,
 button.bg-warning:focus {
-  background-color: #d41231 !important;
+  background-color: #844849 !important;
 }
 
 .bg-danger {
@@ -10499,6 +10499,8 @@ img::-moz-selection {
 }
 
 .btn-social {
+  background-color: #db979f;
+  border-color: #db979f;
   height: 2.5rem;
   width: 2.5rem;
   display: inline-flex;
@@ -10599,7 +10601,6 @@ header.masthead {
 header.masthead .masthead-subheading {
   color: #a35a5b;
   font-size: 1rem;
-  text-align: right;
   font-style: italic;
   line-height: 1.5rem;
   margin-bottom: 25px;
@@ -10610,7 +10611,6 @@ header.masthead .masthead-subheading {
 header.masthead .masthead-heading {
   font-size: 2.25rem;
   font-weight: 700;
-  text-align: right;
   line-height: 3.25rem;
   margin-bottom: 2rem;
   font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
