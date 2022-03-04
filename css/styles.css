@@ -10476,6 +10476,7 @@ p {
 ::selection {
   background: #bf656a;
   text-shadow: none;
+  color: #ede8eb;
 }
 
 img::-moz-selection {
