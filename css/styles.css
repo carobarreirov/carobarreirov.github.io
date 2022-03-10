@@ -6550,7 +6550,8 @@ button.bg-success:focus {
 }
 
 .bg-info {
-  background-color: #17a2b8 !important;
+  /* background-color: #17a2b8 !important; */
+  background-color: #db979f !important;
 }
 
 a.bg-info:hover,
@@ -10987,4 +10988,36 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.swiper {
+  width: 100%;
+  height: 300px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
