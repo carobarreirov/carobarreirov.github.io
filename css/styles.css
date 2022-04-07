@@ -17,7 +17,7 @@
   --pink: #e83e8c;
   --red: #dc3545;
   --orange: #fd7e14;
-  --yellow: #bf656a;
+  --yellow: #e6d220;
   --green: #28a745;
   --teal: #20c997;
   --cyan: #17a2b8;
@@ -28,7 +28,7 @@
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
-  --warning: #bf656a;
+  --warning: #db979f;
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
@@ -10659,7 +10659,7 @@ header.masthead .masthead-heading {
   width: 100%;
   height: 100%;
   border-radius: 20px 80px;
-  background: rgba(163, 90, 91, 0.5);
+  background: rgb(219,151,159,0.7);
   align-items: center;
   justify-content: center;
   opacity: 0;
