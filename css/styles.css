@@ -10641,9 +10641,12 @@ header.masthead .masthead-heading {
   }
 }
 #portfolio .portfolio-item {
-  max-width: 25rem;
+  max-width: 15rem;
   margin-left: auto;
   margin-right: auto;
+}
+#portfolio .portfolio-item img{
+  border-radius: 20px 80px;
 }
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
@@ -10655,7 +10658,8 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(163, 90, 91, 0.7);
+  border-radius: 20px 80px;
+  background: rgba(163, 90, 91, 0.5);
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -10687,7 +10691,7 @@ header.masthead .masthead-heading {
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
   font-style: italic;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
