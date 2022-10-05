@@ -2602,7 +2602,7 @@ textarea.form-control.is-invalid {
 .btn:focus,
 .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem #f54c4c40;
+  box-shadow: 0 0 0 0.2rem #844849;
 }
 .btn.disabled,
 .btn:disabled {
