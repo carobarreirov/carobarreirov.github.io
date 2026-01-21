@@ -1,892 +1,337 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>carobarreirov</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script
-      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Google fonts-->
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <!--Bootstrap-->
-    <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
-    />
-    <!--Bootstrap Icons-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carolina Barreiro Valdez | CV and Portfolio</title>
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
     />
-    <!--Swiper-->
     <link
       rel="stylesheet"
-      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/morph/bootstrap.min.css"
     />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body id="page-top">
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg fixed-top bg-dark" id="mainNav">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"
-          ><img src="assets/img/navbar-logo.svg" alt="..."
-        /></a>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+      <div class="container-lg">
+        <a class="navbar-brand" href="#"
+          ><i class="fas fa-briefcase"></i> Carolina Barreiro Valdez</a
+        >
         <button
-          class="navbar-toggler navbar-toggler-right"
+          class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          Menu
-          <i class="fas fa-bars ml-1"></i>
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#services"
-                >Services</a
-              >
+              <a class="nav-link active" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="resume.html">Résumé</a>
+              <a class="nav-link" href="#timeline">Experience</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item">
+              <a class="nav-link" href="#content">Blog and Talks</a>
+            </li>
+            <li class="nav-item">
               <a
-                class="nav-link dropdown-toggle"
-                href="#portfolio"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+                class="nav-link"
+                href="https://carobarreirov.github.io/cbvportfolio/"
+                target="_blank"
+                >Portfolio</a
               >
-                Portfolio
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="edtech.html">EdTech</a></li>
-                <li><a class="dropdown-item" href="talks.html">Talks</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item disabled" href="#">PM and Agile</a>
-                </li>
-                <li>
-                  <a class="dropdown-item disabled" href="#">Art</a>
-                </li>
-              </ul>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <!-- Masthead-->
-    <header class="masthead">
-      <div class="container">
-        <div class="masthead-subheading">Welcome!</div>
-        <div class="masthead-heading text-uppercase">Hello There</div>
-        <div>
-          <a
-            target="”_blank”"
-            class="btn-social bg-light mx-2"
-            href="https://twitter.com/carobarreirov"
-            ><i class="fab fa-twitter"></i
-          ></a>
-          <a
-            target="”_blank”"
-            class="btn-social bg-light mx-2"
-            href="https://www.linkedin.com/in/carobarreirov/"
-            ><i class="fab fa-linkedin-in"></i
-          ></a>
-          <a
-            target="”_blank”"
-            class="btn-social bg-light mx-2"
-            href="https://www.github.com/carobarreirov/"
-            ><i class="fab fa-github"></i
-          ></a>
-          <a
-            target="”_blank”"
-            class="btn-social bg-light mx-2"
-            href="https://www.instagram.com/iamcarobarreirov/"
-            ><i class="fab fa-instagram"></i
-          ></a>
-        </div>
-      </div>
-    </header>
-    <!-- Services-->
-    <section class="page-section" id="services">
-      <div class="container">
-        <div class="text-center">
-          <h2 class="section-heading text-uppercase">What I do</h2>
-          <h3 class="section-subheading text-muted">
-            I am passionate about this fields. Caution. I can talk hours about
-            these.
-          </h3>
-          <a
-            class="mb-5 btn btn-outline-warning"
-            href="resume.html#semblance"
-            role="button"
-            >Semblance</a
-          >
-          <a
-            class="mb-5 btn btn-outline-warning"
-            href="resume.html#cv"
-            role="button"
-            >CV</a
-          >
-          <a
-            class="mb-5 btn btn-outline-warning"
-            href="resume.html#storytime"
-            role="button"
-            >Story Time</a
-          >
-        </div>
-        <div class="row text-center">
-          <div class="col-md-4">
-            <span class="fa-stack fa-3x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-tasks fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="my-3">Project Management</h4>
-            <p class="text-muted">
-              I have managed +15 projects in software, videogames, data science,
-              edtech, social media, among others. Always with Agile! Most with
-              my favourite, SCRUM.
-            </p>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-3x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-users fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="my-3">Agile Coaching</h4>
-            <p class="text-muted">
-              It all started with an Agile migration. I have given intensive
-              courses to +3 sales and development teams to get certified in the
-              basics of Scrum. So far all have passed their certification.
-            </p>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-3x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-code fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="my-3">EdTech Courses</h4>
-            <p class="text-muted">
-              I love to share what I know! I usually teach Web Development among
-              other fields in technology. Professor at the Panamerican
-              University, course leader of Emeritus in the Fullstack MERN
-              Certificate with MITxPro.
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- ======= Counts ======= -->
-      <div class="counts container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-person-heart"></i>
-              <span
-                data-purecounter-start="0"
-                data-purecounter-end="30"
-                data-purecounter-duration="1"
-                class="purecounter"
-                >30</span
-              >
-              <p>Projects and Teams</p>
-            </div>
-          </div>
 
-          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-            <div class="count-box">
-              <i class="bi bi-code-square"></i>
-              <span
-                data-purecounter-start="0"
-                data-purecounter-end="6"
-                data-purecounter-duration="1"
-                class="purecounter"
-                >6</span
-              >
-              <p>DevWeb Courses</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="bi bi-kanban-fill"></i>
-              <span
-                data-purecounter-start="0"
-                data-purecounter-end="4"
-                data-purecounter-duration="1"
-                class="purecounter"
-                >+4</span
-              >
-              <p>Scrum Courses</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="bi bi-award"></i>
-              <span
-                data-purecounter-start="0"
-                data-purecounter-end="112358"
-                data-purecounter-duration="1"
-                class="purecounter"
-                >112358</span
-              >
-              <p>Passion</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End Counts -->
-    </section>
-    <!-- Slider main container -->
-    <div class="swiper mySwiper bg-info">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide bg-info">
-          <a href="#!"
-            ><img
-              class="img-fluid img-brand d-block mx-auto"
-              src="assets/img/logos/redhat.png"
-              alt="..."
-          /></a>
-        </div>
-        <div class="swiper-slide bg-info">
-          <a href="#!"
-            ><img
-              class="img-fluid img-brand d-block mx-auto"
-              src="assets/img/logos/ubits.png"
-              alt="..."
-          /></a>
-        </div>
-        <div class="swiper-slide bg-info">
-          <a href="#!"
-            ><img
-              class="img-fluid img-brand d-block mx-auto"
-              src="assets/img/logos/emeritus.png"
-              alt="..."
-          /></a>
-        </div>
-        <div class="swiper-slide bg-info">
-          <a href="#!"
-            ><img
-              class="img-fluid img-brand d-block mx-auto"
-              src="assets/img/logos/mitxpro.png"
-              alt="..."
-          /></a>
-        </div>
-        <div class="swiper-slide bg-info">
-          <a href="#!"
-            ><img
-              class="img-fluid img-brand d-block mx-auto"
-              src="assets/img/logos/iterando.png"
-              alt="..."
-          /></a>
-        </div>
-        <div class="swiper-slide bg-info">
-          <a href="#!"
-            ><img
-              class="img-fluid img-brand d-block mx-auto"
-              src="assets/img/logos/patrones.png"
-              alt="..."
-          /></a>
-        </div>
-        <div class="swiper-slide bg-info">
-          <a href="#!"
-            ><img
-              class="img-fluid img-brand d-block mx-auto"
-              src="assets/img/logos/upacmw.png"
-              alt="..."
-          /></a>
-        </div>
-        <div class="swiper-slide bg-info">
-          <a href="#!"
-            ><img
-              class="img-fluid img-brand d-block mx-auto"
-              src="assets/img/logos/pcilab.png"
-              alt="..."
-          /></a>
-        </div>
-        <div class="swiper-slide bg-info">
-          <a href="#!"
-            ><img
-              class="img-fluid img-brand d-block mx-auto"
-              src="assets/img/logos/up.png"
-              alt="..."
-          /></a>
-        </div>
-        <div class="swiper-slide bg-info">
-          <a href="#!"
-            ><img
-              class="img-fluid img-brand d-block mx-auto"
-              src="assets/img/logos/depaul.png"
-              alt="..."
-          /></a>
-        </div>
-      </div>
-      <div class="swiper-pagination"></div>
-    </div>
-    <!--End Slider-->
-
-    <!-- Portfolio Grid -->
-    <section class="page-section" id="portfolio">
-      <div class="container">
-        <div class="text-center">
-          <h2 class="section-heading text-uppercase">Get things to DONE</h2>
-          <h3 class="section-subheading text-muted">
-            Portfolio. What I've done. Practice makes a master. All the
-            experiences I have lived are what make me the me I am today.
-          </h3>
-        </div>
-        <div class="row justify-content-md-center">
-          <div class="col-lg-3 col-sm-6 mb-4">
-            <div class="portfolio-item">
-              <a class="portfolio-link" href="edtech.html">
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content">
-                    <i class="fas fa-plus fa-3x"></i>
-                  </div>
-                </div>
-                <img
-                  class="img-fluid"
-                  src="assets/img/portfolio/edtech.jpg"
-                  alt="..."
-                />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Teaching</div>
-                <div class="portfolio-caption-subheading text-muted">
-                  EdTech enthusiast
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-sm-6 mb-4">
-            <div class="portfolio-item">
-              <a class="portfolio-link" data-toggle="modal" href="#">
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content">
-                    <i class="fas fa-plus fa-3x"></i>
-                  </div>
-                </div>
-                <img
-                  class="img-fluid"
-                  src="assets/img/portfolio/comm.jpg"
-                  alt="..."
-                />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Communities</div>
-                <div class="portfolio-caption-subheading text-muted">
-                  Open-source leader
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- <div class="col-lg-3 col-sm-6 mb-4">
-            <div class="portfolio-item">
-              <a
-                class="portfolio-link"
-                data-toggle="modal"
-                href="#portfolioModal3"
-              >
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content">
-                    <i class="fas fa-plus fa-3x"></i>
-                  </div>
-                </div>
-                <img
-                  class="img-fluid"
-                  src="assets/img/portfolio/03-thumbnail.jpg"
-                  alt="..."
-                />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Lotus PCI Lab</div>
-                <div class="portfolio-caption-subheading text-muted">
-                  PM Leader
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-sm-6 mb-4">
-            <div class="portfolio-item">
-              <a
-                class="portfolio-link"
-                data-toggle="modal"
-                href="#portfolioModal4"
-              >
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content">
-                    <i class="fas fa-plus fa-3x"></i>
-                  </div>
-                </div>
-                <img
-                  class="img-fluid"
-                  src="assets/img/portfolio/04-thumbnail.jpg"
-                  alt="..."
-                />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Software PM</div>
-                <div class="portfolio-caption-subheading text-muted">
-                  Agile Migration
-                </div>
-              </div>
-            </div>
-          </div> -->
-        </div>
-      </div>
-    </section>
-
-    <!-- Quotes-->
-    <div class="mb-5" id="quotes">
-      <div class="container">
-        <div class="row d-flex justify-content-center align-items-center">
-          <div
-            id="carouselExampleIndicators"
-            class="carousel slide"
-            data-bs-ride="true"
-          >
-            <!-- Inner -->
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="row d-flex justify-content-center">
-                  <div class="col-md-11 col-lg-8 col-xl-6">
-                    <div class="d-flex">
-                      <div class="flex-grow-1 ms-4 ps-3">
-                        <figure>
-                          <blockquote class="blockquote mb-4">
-                            <p>
-                              <i
-                                class="fas fa-quote-left fa-lg text-warning me-2"
-                              ></i>
-                              <span class="font-italic"
-                                >You are calm, grounded, and clear. Lots of
-                                helpful philosophies. I loved it :).</span
-                              >
-                            </p>
-                          </blockquote>
-                          <figcaption class="blockquote-footer">
-                            Participant in
-                            <cite title="Source Title"
-                              >Fullstack Global cohort Jun21</cite
-                            >
-                          </figcaption>
-                        </figure>
-                      </div>
-                      <div class="flex-grow-1 ms-4 ps-3">
-                        <figure>
-                          <blockquote class="blockquote mb-4">
-                            <p>
-                              <i
-                                class="fas fa-quote-left fa-lg text-warning me-2"
-                              ></i>
-                              <span class="font-italic"
-                                >Incluí en mi vocabulario frase que siempre
-                                decías: "...bueno y esto ¿con qué se
-                                come?"</span
-                              >
-                            </p>
-                          </blockquote>
-                          <figcaption class="blockquote-footer">
-                            Participant in
-                            <cite title="Source Title"
-                              >Fullstack LATAM cohort Jun21</cite
-                            >
-                          </figcaption>
-                        </figure>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row d-flex justify-content-center">
-                  <div class="col-md-8 col-lg-9 col-xl-8">
-                    <div class="d-flex">
-                      <div class="flex-grow-1 ms-4 ps-3">
-                        <figure>
-                          <blockquote class="blockquote mb-4">
-                            <p>
-                              <i
-                                class="fas fa-quote-left fa-lg text-warning me-2"
-                              ></i>
-                              <span class="font-italic"
-                                >I really loved how you relate each technical
-                                skills that we develop on the way with life
-                                skills and that's true. I experienced it. Also,
-                                I liked all your instructions and preparations
-                                for project planning, scheduling, and executing
-                                it. It's a separate skill all together.</span
-                              >
-                            </p>
-                          </blockquote>
-                          <figcaption class="blockquote-footer">
-                            Participant in
-                            <cite title="Source Title"
-                              >Fullstack Global cohort Jun21</cite
-                            >
-                          </figcaption>
-                        </figure>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row d-flex justify-content-center">
-                  <div class="col-md-8 col-lg-9 col-xl-8">
-                    <div class="d-flex">
-                      <div class="flex-grow-1 ms-4 ps-3">
-                        <figure>
-                          <blockquote class="blockquote mb-4">
-                            <p>
-                              <i
-                                class="fas fa-quote-left fa-lg text-warning me-2"
-                              ></i>
-                              <span class="font-italic"
-                                >Aparte de reforzar conocimientos, me gustaba de
-                                las sesiones tus consejos y recomendaciones en
-                                otros aspectos mas personales. Compartiste
-                                muchas cosas que no era tu obligación pero aun
-                                así fuiste muy generosa con tus conocimientos.
-                                .</span
-                              >
-                            </p>
-                          </blockquote>
-                          <figcaption class="blockquote-footer">
-                            Participant in
-                            <cite title="Source Title"
-                              >Fullstack LATAM cohort April21</cite
-                            >
-                          </figcaption>
-                        </figure>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row d-flex justify-content-center">
-                  <div class="col-md-8 col-lg-9 col-xl-8">
-                    <div class="d-flex">
-                      <div class="flex-grow-1 ms-4 ps-3">
-                        <figure>
-                          <blockquote class="blockquote mb-4">
-                            <p>
-                              <i
-                                class="fas fa-quote-left fa-lg text-warning me-2"
-                              ></i>
-                              <span class="font-italic"
-                                >Bueno, pues primero que nada manifestarte mi
-                                admiración y gratitud, es un año donde uno se
-                                encariña por la calidad de persona que eres y
-                                por el apoyo incondicional recibido. Te deseo el
-                                mejor de los éxitos en todos tus proyectos. Todo
-                                un gusto, Caro.</span
-                              >
-                            </p>
-                          </blockquote>
-                          <figcaption class="blockquote-footer">
-                            Participant in
-                            <cite title="Source Title"
-                              >Fullstack LATAM cohort April21</cite
-                            >
-                          </figcaption>
-                        </figure>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row d-flex justify-content-center">
-                  <div class="col-md-8 col-lg-9 col-xl-8">
-                    <div class="d-flex">
-                      <div class="flex-grow-1 ms-4 ps-3">
-                        <figure>
-                          <blockquote class="blockquote mb-4">
-                            <p>
-                              <i
-                                class="fas fa-quote-left fa-lg text-warning me-2"
-                              ></i>
-                              <span class="font-italic"
-                                >Comentarios sobre la experiencia afuera en el
-                                medio de desarrollo de software, agile,
-                                etc.</span
-                              >
-                            </p>
-                          </blockquote>
-                          <figcaption class="blockquote-footer">
-                            Participant in
-                            <cite title="Source Title"
-                              >Fullstack LATAM June21</cite
-                            >
-                          </figcaption>
-                        </figure>
-                      </div>
-                      <div class="flex-grow-1 ms-4 ps-3">
-                        <figure>
-                          <blockquote class="blockquote mb-4">
-                            <p>
-                              <i
-                                class="fas fa-quote-left fa-lg text-warning me-2"
-                              ></i>
-                              <span class="font-italic"
-                                >Gracias por las experiencias adicionales más
-                                allá de los temas del curso. Gran disposición
-                                para compartir y apoyar en el aprendizaje.
-                                .</span
-                              >
-                            </p>
-                          </blockquote>
-                          <figcaption class="blockquote-footer">
-                            Participant in
-                            <cite title="Source Title"
-                              >Fullstack LATAM June21</cite
-                            >
-                          </figcaption>
-                        </figure>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row d-flex justify-content-center">
-                  <div class="col-md-8 col-lg-9 col-xl-8">
-                    <div class="d-flex">
-                      <div class="flex-grow-1 ms-4 ps-3">
-                        <figure>
-                          <blockquote class="blockquote mb-4">
-                            <p>
-                              <i
-                                class="fas fa-quote-left fa-lg text-warning me-2"
-                              ></i>
-                              <span class="font-italic"
-                                >Sinceramente, creo que el compromiso para con
-                                el grupo, el demostrar un notorio interés en
-                                ayudar a entender temáticas a pesar de que
-                                existía un horario preestablecido a cumplir.
-                                Bajo mi visión fue más fructífero observar eso
-                                que otra cosa. Eso de mi parte se agradece!
-                                Agradecido de haber compartido y aprendido bajo
-                                tu tutela... un abrazo!
-                              </span>
-                            </p>
-                          </blockquote>
-                          <figcaption class="blockquote-footer">
-                            Participant in
-                            <cite title="Source Title"
-                              >Fullstack LATAM June21</cite
-                            >
-                          </figcaption>
-                        </figure>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Inner -->
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon btn bg-warning"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon btn bg-warning"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Portafolio-->
-    <!-- Team-->
-    <section class="page-section gradient-custom" id="team">
-      <div class="container">
-        <div class="text-center">
-          <h2 class="section-heading text-uppercase">What about Me?</h2>
-          <h3 class="section-subheading text-muted">
-            I am trying to update and maintain this webiste. Patience. Still in
-            progress
-          </h3>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="team-member">
-              <img
-                class="mx-auto rounded-circle"
-                src="assets/img/team/2.png"
-                alt="carolina-barreiro"
-              />
-              <h4>Caro Barreiro</h4>
-              <p class="text-muted">
-                PM Specialist @Technology also EdTech enthusiast
-              </p>
-              <a
-                target="”_blank”"
-                class="btn btn-dark btn-social mx-2"
-                href="https://twitter.com/carobarreirov"
-                ><i class="fab fa-twitter"></i
-              ></a>
-              <a
-                target="”_blank”"
-                class="btn btn-dark btn-social mx-2"
-                href="https://www.linkedin.com/in/carobarreirov/"
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
-              <a
-                target="”_blank”"
-                class="btn btn-dark btn-social mx-2"
-                href="https://www.github.com/carobarreirov/"
-                ><i class="fab fa-github"></i
-              ></a>
-              <a
-                target="”_blank”"
-                class="btn btn-dark btn-social mx-2"
-                href="https://www.instagram.com/iamcarobarreirov/"
-                ><i class="fab fa-instagram"></i
-              ></a>
-            </div>
-          </div>
-          <div class="col-lg-6 mx-auto text-center">
-            <p class="large text-muted">
-              Passionate about Education and Technology guided by themes of
-              Leadership and personal growth: I seek to be a model of
-              inspiration and motivation for women who want to make an impact
-              through STEM.
-              <br />
-              I believe in Arts as a mean of inspiration and in the urgency of
-              environmental awareness.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Footer-->
-    <div class="container">
-      <footer
-        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
-      >
-        <ul class="nav col-md-4 justify-content-end">
-          <li class="nav-item">
-            <a href="#services" class="nav-link px-2 text-muted">Services</a>
-          </li>
-          <li class="nav-item">
-            <a href="resume.html" class="nav-link px-2 text-muted">Résumé</a>
-          </li>
-          <li class="nav-item">
-            <a href="#portfolio" class="nav-link px-2 text-muted disbaled"
-              >Portfolio</a
-            >
-          </li>
-          <li class="nav-item">
-            <a href="#team" class="nav-link px-2 text-muted">Me</a>
-          </li>
-        </ul>
-
-        <ul
-          class="nav col-md-4 flex-wrap justify-content-end list-unstyled d-flex"
-        >
-          <li class="ms-3">
-            <a
-              target="”_blank”"
-              class="btn mx-2"
-              href="https://twitter.com/carobarreirov"
-              ><i class="fab fa-twitter"></i
-            ></a>
-          </li>
-          <li class="ms-3">
-            <a
-              target="”_blank”"
-              class="btn mx-2"
-              href="https://www.linkedin.com/in/carobarreirov/"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
-          </li>
-          <li class="ms-3">
-            <a
-              target="”_blank”"
-              class="btn mx-2"
-              href="https://www.github.com/carobarreirov/"
-              ><i class="fab fa-github"></i
-            ></a>
-          </li>
-          <li class="ms-3">
-            <a
-              target="”_blank”"
-              class="btn mx-2"
-              href="https://www.instagram.com/iamcarobarreirov/"
-              ><i class="fab fa-instagram"></i
-            ></a>
-          </li>
-        </ul>
-
-        <div class="col-lg-6 flex-wrap justify-content-between py-4 my-4">
-          <p class="text-center text-muted">
-            Copyright &copy; carobarreirov
-            <!-- This script automatically adds the current year to your website footer-->
-            <!-- (credit: https://updateyourfooter.com/)-->
-            <script>
-              document.write(new Date().getFullYear());
-            </script>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container-lg">
+        <div class="hero-content">
+          <h1 class="hero-name">Carolina Barreiro Valdez</h1>
+          <p>
+            I study and design systems where education, technology and innovation
+            intersect. <br>
+            Not to optimise them, but to question how they are shaped
+            and who they serve. <hr />
+            My work bridges research and practice to turn complexity into
+            conscious action. <br>
+            Guided by intellectual integrity, responsibility
+            and human consequence. <hr />
+            I work from the premise that systems are shaped by values.<br>
+            I design at the point where those values become structures that shape lives.
           </p>
+          <a
+            href="https://carobarreirov.github.io/cbvportfolio/"
+            target="_blank"
+            class="btn-portfolio"
+            >View Portfolio</a
+          >
         </div>
-      </footer>
-    </div>
+      </div>
+    </section>
 
-    <!-- Bootstrap core JS-->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <!-- Third party plugin JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
-    <!--Bootstrap-->
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-      crossorigin="anonymous"
-    ></script>
-    <!--Swiper-->
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/swiper.js"></script>
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="container-lg">
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>Transformation and Consulting</h3>
+            <p>
+              Senior Agile Consultant specializing in organizational
+              transformation, digital innovation, and change management.
+              Expertise in designing transformation offices, agile migrations,
+              and process optimization across banking, manufacturing, and
+              technology sectors.
+            </p>
+            <a href="#timeline" class="card-link">View consulting work →</a>
+          </div>
+          <div class="about-card">
+            <h3>Teaching and Leadership</h3>
+            <p>
+              Course leader at Emeritus (MIT xPro Coding Fullstack). Instructor
+              at Universidad Panamericana. Founder of Beautiful Patterns
+              bootcamps for women in STEM. Expert in agile enablement, team
+              development, and educational innovation.
+            </p>
+            <a href="#content" class="card-link">See teaching →</a>
+          </div>
+          <div class="about-card">
+            <h3>Research and Strategy</h3>
+            <p>
+              MIT research fellow in technology strategy and innovation.
+              Researcher on agile adoption in Latin America. Strategic planning
+              expert. Published insights on digital transformation, leadership
+              culture, and organizational effectiveness.
+            </p>
+            <a href="#bio-full" class="card-link">Read full bio →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Full Bio Section -->
+    <section id="bio-full" class="bio-section">
+      <div class="container-lg">
+        <h2>About Carolina</h2>
+        <div class="bio-languages">
+          <button class="bio-lang-btn active" data-lang="en">English</button>
+          <button class="bio-lang-btn" data-lang="es">Español</button>
+        </div>
+
+        <div class="bio-text" id="bio-en">
+          <p>
+            Carolina Barreiro Valdez is a transformation and Change Management
+            leader focused on educational technology and social impact across
+            Latin America
+          </p>
+          <p>
+            She holds an MBA with distinction in Agile Leadership and
+            Transformation and brings 7+ years of experience partnering with
+            senior stakeholders to turn evidence into practical strategy,
+            governance, and operating model change. Her research explores how
+            Agile becomes lived culture in Mexican EdTech under real
+            constraints, and her social impact work centres gender equity in
+            STEM through her leadership of Beautiful Patterns, an MIT affiliated
+            initiative. She is motivated by responsible AI, measurable outcomes,
+            and institutions that want to transform with ethical clarity.
+          </p>
+          <div class="cv-downloads mt-4">
+            <a href="assets/cv/one-pager.pdf" class="btn-cv" download
+              >One-pager CV</a
+            >
+            <a href="assets/cv/extensive.pdf" class="btn-cv" download
+              >Extensive CV</a
+            >
+          </div>
+        </div>
+
+        <div class="bio-text" id="bio-es" style="display: none">
+          <p>
+            Carolina Barreiro Valdez es líder en transformación y Change
+            Management con foco en tecnología educativa e impacto social en
+            América Latina.
+          </p>
+          <p>
+            Cuenta con un MBA con distinción y más de 7 años de experiencia
+            convirtiendo evidencia en estrategia práctica, gobernanza y cambios
+            de modelo operativo junto a liderazgo senior. Su investigación
+            explora cómo Agile se vive como cultura en el EdTech mexicano bajo
+            restricciones reales, y su trabajo de impacto se centra en equidad
+            de género en STEM desde Beautiful Patterns, iniciativa afiliada a
+            MIT. Le mueve la IA responsable, los resultados medibles y la
+            transformación con claridad ética.
+          </p>
+          <div class="cv-downloads mt-4">
+            <a href="assets/cv/one-pager.pdf" class="btn-cv" download
+              >CV de una página</a
+            >
+            <a href="assets/cv/extensive.pdf" class="btn-cv" download
+              >CV Completo</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="timeline-section">
+      <div class="container-lg">
+        <h2 class="section-title">Professional Journey</h2>
+        <div class="timeline mt-5">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-year">2022 - Present</div>
+              <div class="timeline-title">
+                Agile and Transformation Consultancy
+              </div>
+              <div class="timeline-description">
+                Driving organizational transformation and agile adoption across
+                diverse sectors, combining expertise in digital innovation and
+                change management.
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-year">2020 - 2022</div>
+              <div class="timeline-title">Program Agile IT Manager</div>
+              <div class="timeline-description">
+                Led agile transformation initiatives and managed
+                cross-functional IT teams in implementing Scrum methodologies
+                and digital transformation strategies.
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-year">2020 - 2021</div>
+              <div class="timeline-title">
+                Project Mgmt & Digital Transformation Specialist
+              </div>
+              <div class="timeline-description">
+                After falling in love with Project Management through my 2019
+                startup experience, I became a self-taught learner. Awarded
+                scholarships for MIT Professional Education's Leading Digital
+                Transformation and Cloud & DevOps Certificates. In 2020, I
+                headed the PM area in a startup and pioneered a migration to
+                agile methodologies—a significant challenge that deepened my
+                expertise.
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-year">2018 - Present</div>
+              <div class="timeline-title">EdTech Journey</div>
+              <div class="timeline-description">
+                My passion for teaching was ignited through Beautiful Patterns,
+                a computer bootcamp for girls where I volunteered. Since 2018,
+                I've been dedicated to sharing knowledge. I'm an instructor for
+                the Online MERN Fullstack Certificate at Emeritus (MITxPro), web
+                development teacher at Panamerican University, SCRUM
+                Fundamentals instructor, and currently Director of the
+                open-source Beautiful Patterns project.
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-year">2016 - 2020</div>
+              <div class="timeline-title">Digital Animation Engineer</div>
+              <div class="timeline-description">
+                Passionate about blending Art and Engineering, I studied at
+                Panamerican University in Mexico City with a research stay at
+                MIT and studies abroad at DePaul University in Chicago.
+                Graduated with honors and leveraged my university experience for
+                projects spanning educational innovation, gender equity, project
+                management, and art & technology.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog & Talks Section -->
+    <section id="content" class="py-5">
+      <div class="container-lg">
+        <div class="row g-5">
+          <div class="col-lg-6">
+            <div class="content-section">
+              <h3 class="content-heading">Blog Posts</h3>
+              <p class="content-description">
+                Insights on EdTech, digital transformation, leadership, and
+                innovation. Sharing learnings from my journey bridging
+                technology, education, and human-centered design.
+              </p>
+              <ul class="content-list">
+                <li><a href="#">The Future of EdTech Leadership</a></li>
+                <li><a href="#">Building Human-Centered Systems</a></li>
+                <li><a href="#">Scaling Impact Through Innovation</a></li>
+                <li><a href="#">Strategy in Times of Uncertainty</a></li>
+                <li><a href="#">Agile Transformation in Education</a></li>
+                <li><a href="#">Art & Technology: Finding Your Path</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="content-section">
+              <h3 class="content-heading">Talks & Speaking</h3>
+              <p class="content-description">
+                Speaking engagements on agile methodologies, digital
+                transformation, and educational innovation. Contributing
+                perspectives at conferences and workshops worldwide.
+              </p>
+              <ul class="content-list">
+                <li><a href="#">SXSW: EdTech Innovation Panel</a></li>
+                <li><a href="#">Tech in Education Summit Keynote</a></li>
+                <li><a href="#">Leading Digital Transformation Workshop</a></li>
+                <li><a href="#">World Innovation Forum Speaker</a></li>
+                <li><a href="#">Agile Leadership Bootcamp</a></li>
+                <li>
+                  <a href="#"
+                    >Beautiful Patterns: Building Inclusive Tech Communities</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4 mt-5" data-bs-theme="dark">
+      <div class="container-lg text-center">
+        <p class="mb-0">
+          &copy; 2026 Carolina Barreiro Valdez. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
