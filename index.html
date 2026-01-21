@@ -18,12 +18,12 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="bg-light text-dark">
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg sticky-top bg-body border-bottom shadow-sm" data-bs-theme="dark">
       <div class="container-lg">
-        <a class="navbar-brand" href="#"
-          ><i class="fas fa-briefcase"></i> Carolina Barreiro Valdez</a
+        <a class="navbar-brand fw-bold" href="#"
+          ><i class="fas fa-briefcase me-2"></i> Carolina Barreiro Valdez</a
         >
         <button
           class="navbar-toggler"
@@ -37,7 +37,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
+          <ul class="navbar-nav ms-auto gap-3">
             <li class="nav-item">
               <a class="nav-link active" href="#about">About</a>
             </li>
@@ -61,81 +61,91 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="hero" class="hero-section">
+    <section id="hero" class="py-5 text-center">
       <div class="container-lg">
-        <div class="hero-content">
-          <h1 class="hero-name">Carolina Barreiro Valdez</h1>
-          <p>
-            I study and design systems where education, technology and innovation
-            intersect. <br>
-            Not to optimise them, but to question how they are shaped
-            and who they serve. <hr />
-            My work bridges research and practice to turn complexity into
-            conscious action. <br>
-            Guided by intellectual integrity, responsibility
-            and human consequence. <hr />
-            I work from the premise that systems are shaped by values.<br>
-            I design at the point where those values become structures that shape lives.
-          </p>
-          <a
-            href="https://carobarreirov.github.io/cbvportfolio/"
-            target="_blank"
-            class="btn-portfolio"
-            >View Portfolio</a
-          >
-        </div>
+        <h1 class="display-4 fw-bold mb-3">Carolina Barreiro Valdez</h1>
+        <p class="lead text-muted mx-auto" style="max-width: 800px;">
+          I study and design systems where education, technology and innovation
+          intersect. <br>
+          Not to optimise them, but to question how they are shaped
+          and who they serve. <hr class="my-3"/>
+          My work bridges research and practice to turn complexity into
+          conscious action. <br>
+          Guided by intellectual integrity, responsibility
+          and human consequence. <hr class="my-3"/>
+          I work from the premise that systems are shaped by values.<br>
+          I design at the point where those values become structures that shape lives.
+        </p>
+        <a
+          href="https://carobarreirov.github.io/cbvportfolio/"
+          target="_blank"
+          class="btn btn-outline-primary mt-4"
+          >View Portfolio</a
+        >
       </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about-section">
+    <section id="about" class="py-5">
       <div class="container-lg">
-        <div class="about-grid">
-          <div class="about-card">
-            <h3>Transformation and Consulting</h3>
-            <p>
-              Senior Agile Consultant specializing in organizational
-              transformation, digital innovation, and change management.
-              Expertise in designing transformation offices, agile migrations,
-              and process optimization across banking, manufacturing, and
-              technology sectors.
-            </p>
-            <a href="#timeline" class="card-link">View consulting work →</a>
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <h3 class="card-title">Transformation and Consulting</h3>
+                <p class="card-text">
+                  Senior Agile Consultant specializing in organizational
+                  transformation, digital innovation, and change management.
+                  Expertise in designing transformation offices, agile migrations,
+                  and process optimization across banking, manufacturing, and
+                  technology sectors.
+                </p>
+                <a href="#timeline" class="link-info text-decoration-none">View consulting work →</a>
+              </div>
+            </div>
           </div>
-          <div class="about-card">
-            <h3>Teaching and Leadership</h3>
-            <p>
-              Course leader at Emeritus (MIT xPro Coding Fullstack). Instructor
-              at Universidad Panamericana. Founder of Beautiful Patterns
-              bootcamps for women in STEM. Expert in agile enablement, team
-              development, and educational innovation.
-            </p>
-            <a href="#content" class="card-link">See teaching →</a>
+          <div class="col-lg-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <h3 class="card-title">Teaching and Leadership</h3>
+                <p class="card-text">
+                  Course leader at Emeritus (MIT xPro Coding Fullstack). Instructor
+                  at Universidad Panamericana. Founder of Beautiful Patterns
+                  bootcamps for women in STEM. Expert in agile enablement, team
+                  development, and educational innovation.
+                </p>
+                <a href="#content" class="link-info text-decoration-none">See teaching →</a>
+              </div>
+            </div>
           </div>
-          <div class="about-card">
-            <h3>Research and Strategy</h3>
-            <p>
-              MIT research fellow in technology strategy and innovation.
-              Researcher on agile adoption in Latin America. Strategic planning
-              expert. Published insights on digital transformation, leadership
-              culture, and organizational effectiveness.
-            </p>
-            <a href="#bio-full" class="card-link">Read full bio →</a>
+          <div class="col-lg-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <h3 class="card-title">Research and Strategy</h3>
+                <p class="card-text">
+                  MIT research fellow in technology strategy and innovation.
+                  Researcher on agile adoption in Latin America. Strategic planning
+                  expert. Published insights on digital transformation, leadership
+                  culture, and organizational effectiveness.
+                </p>
+                <a href="#bio-full" class="link-info text-decoration-none">Read full bio →</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Full Bio Section -->
-    <section id="bio-full" class="bio-section">
+    <section id="bio-full" class="py-5">
       <div class="container-lg">
-        <h2>About Carolina</h2>
-        <div class="bio-languages">
-          <button class="bio-lang-btn active" data-lang="en">English</button>
-          <button class="bio-lang-btn" data-lang="es">Español</button>
+        <h2 class="mb-4">About Carolina</h2>
+        <div class="btn-group mb-4" role="group">
+          <button type="button" class="bio-lang-btn btn btn-outline-primary active" data-lang="en">English</button>
+          <button type="button" class="bio-lang-btn btn btn-outline-primary" data-lang="es">Español</button>
         </div>
 
-        <div class="bio-text" id="bio-en">
+        <div class="bio-text mx-auto" id="bio-en" style="max-width: 800px;">
           <p>
             Carolina Barreiro Valdez is a transformation and Change Management
             leader focused on educational technology and social impact across
@@ -152,17 +162,17 @@
             initiative. She is motivated by responsible AI, measurable outcomes,
             and institutions that want to transform with ethical clarity.
           </p>
-          <div class="cv-downloads mt-4">
-            <a href="assets/cv/one-pager.pdf" class="btn-cv" download
+          <div class="d-flex gap-2 flex-wrap mt-4">
+            <a href="assets/cv/one-pager.pdf" class="btn btn-outline-primary btn-sm" download
               >One-pager CV</a
             >
-            <a href="assets/cv/extensive.pdf" class="btn-cv" download
+            <a href="assets/cv/extensive.pdf" class="btn btn-outline-primary btn-sm" download
               >Extensive CV</a
             >
           </div>
         </div>
 
-        <div class="bio-text" id="bio-es" style="display: none">
+        <div class="bio-text mx-auto" id="bio-es" style="display: none; max-width: 800px;">
           <p>
             Carolina Barreiro Valdez es líder en transformación y Change
             Management con foco en tecnología educativa e impacto social en
@@ -178,11 +188,11 @@
             MIT. Le mueve la IA responsable, los resultados medibles y la
             transformación con claridad ética.
           </p>
-          <div class="cv-downloads mt-4">
-            <a href="assets/cv/one-pager.pdf" class="btn-cv" download
+          <div class="d-flex gap-2 flex-wrap mt-4">
+            <a href="assets/cv/one-pager.pdf" class="btn btn-outline-primary btn-sm" download
               >CV de una página</a
             >
-            <a href="assets/cv/extensive.pdf" class="btn-cv" download
+            <a href="assets/cv/extensive.pdf" class="btn btn-outline-primary btn-sm" download
               >CV Completo</a
             >
           </div>
@@ -191,82 +201,90 @@
     </section>
 
     <!-- Timeline Section -->
-    <section id="timeline" class="timeline-section">
+    <section id="timeline" class="py-5">
       <div class="container-lg">
-        <h2 class="section-title">Professional Journey</h2>
-        <div class="timeline mt-5">
+        <h2 class="mb-5">Professional Journey</h2>
+        <div class="timeline">
           <div class="timeline-item">
             <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <div class="timeline-year">2022 - Present</div>
-              <div class="timeline-title">
-                Agile and Transformation Consultancy
-              </div>
-              <div class="timeline-description">
-                Driving organizational transformation and agile adoption across
-                diverse sectors, combining expertise in digital innovation and
-                change management.
+            <div class="card border-0 shadow-sm">
+              <div class="card-body">
+                <span class="badge bg-info mb-2">2022 - Present</span>
+                <h5 class="card-title">Agile and Transformation Consultancy</h5>
+                <p class="card-text">
+                  Driving organizational transformation and agile adoption across
+                  diverse sectors, combining expertise in digital innovation and
+                  change management.
+                </p>
               </div>
             </div>
           </div>
           <div class="timeline-item">
             <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <div class="timeline-year">2020 - 2022</div>
-              <div class="timeline-title">Program Agile IT Manager</div>
-              <div class="timeline-description">
-                Led agile transformation initiatives and managed
-                cross-functional IT teams in implementing Scrum methodologies
-                and digital transformation strategies.
+            <div class="card border-0 shadow-sm">
+              <div class="card-body">
+                <span class="badge bg-info mb-2">2020 - 2022</span>
+                <h5 class="card-title">Program Agile IT Manager</h5>
+                <p class="card-text">
+                  Led agile transformation initiatives and managed
+                  cross-functional IT teams in implementing Scrum methodologies
+                  and digital transformation strategies.
+                </p>
               </div>
             </div>
           </div>
           <div class="timeline-item">
             <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <div class="timeline-year">2020 - 2021</div>
-              <div class="timeline-title">
-                Project Mgmt & Digital Transformation Specialist
-              </div>
-              <div class="timeline-description">
-                After falling in love with Project Management through my 2019
-                startup experience, I became a self-taught learner. Awarded
-                scholarships for MIT Professional Education's Leading Digital
-                Transformation and Cloud & DevOps Certificates. In 2020, I
-                headed the PM area in a startup and pioneered a migration to
-                agile methodologies—a significant challenge that deepened my
-                expertise.
-              </div>
-            </div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <div class="timeline-year">2018 - Present</div>
-              <div class="timeline-title">EdTech Journey</div>
-              <div class="timeline-description">
-                My passion for teaching was ignited through Beautiful Patterns,
-                a computer bootcamp for girls where I volunteered. Since 2018,
-                I've been dedicated to sharing knowledge. I'm an instructor for
-                the Online MERN Fullstack Certificate at Emeritus (MITxPro), web
-                development teacher at Panamerican University, SCRUM
-                Fundamentals instructor, and currently Director of the
-                open-source Beautiful Patterns project.
+            <div class="card border-0 shadow-sm">
+              <div class="card-body">
+                <span class="badge bg-info mb-2">2020 - 2021</span>
+                <h5 class="card-title">
+                  Project Mgmt & Digital Transformation Specialist
+                </h5>
+                <p class="card-text">
+                  After falling in love with Project Management through my 2019
+                  startup experience, I became a self-taught learner. Awarded
+                  scholarships for MIT Professional Education's Leading Digital
+                  Transformation and Cloud & DevOps Certificates. In 2020, I
+                  headed the PM area in a startup and pioneered a migration to
+                  agile methodologies—a significant challenge that deepened my
+                  expertise.
+                </p>
               </div>
             </div>
           </div>
           <div class="timeline-item">
             <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <div class="timeline-year">2016 - 2020</div>
-              <div class="timeline-title">Digital Animation Engineer</div>
-              <div class="timeline-description">
-                Passionate about blending Art and Engineering, I studied at
-                Panamerican University in Mexico City with a research stay at
-                MIT and studies abroad at DePaul University in Chicago.
-                Graduated with honors and leveraged my university experience for
-                projects spanning educational innovation, gender equity, project
-                management, and art & technology.
+            <div class="card border-0 shadow-sm">
+              <div class="card-body">
+                <span class="badge bg-info mb-2">2018 - Present</span>
+                <h5 class="card-title">EdTech Journey</h5>
+                <p class="card-text">
+                  My passion for teaching was ignited through Beautiful Patterns,
+                  a computer bootcamp for girls where I volunteered. Since 2018,
+                  I've been dedicated to sharing knowledge. I'm an instructor for
+                  the Online MERN Fullstack Certificate at Emeritus (MITxPro), web
+                  development teacher at Panamerican University, SCRUM
+                  Fundamentals instructor, and currently Director of the
+                  open-source Beautiful Patterns project.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="card border-0 shadow-sm">
+              <div class="card-body">
+                <span class="badge bg-info mb-2">2016 - 2020</span>
+                <h5 class="card-title">Digital Animation Engineer</h5>
+                <p class="card-text">
+                  Passionate about blending Art and Engineering, I studied at
+                  Panamerican University in Mexico City with a research stay at
+                  MIT and studies abroad at DePaul University in Chicago.
+                  Graduated with honors and leveraged my university experience for
+                  projects spanning educational innovation, gender equity, project
+                  management, and art & technology.
+                </p>
               </div>
             </div>
           </div>
@@ -275,48 +293,40 @@
     </section>
 
     <!-- Blog & Talks Section -->
-    <section id="content" class="py-5">
+    <section id="content" class="py-5 bg-light">
       <div class="container-lg">
         <div class="row g-5">
           <div class="col-lg-6">
-            <div class="content-section">
-              <h3 class="content-heading">Blog Posts</h3>
-              <p class="content-description">
-                Insights on EdTech, digital transformation, leadership, and
-                innovation. Sharing learnings from my journey bridging
-                technology, education, and human-centered design.
-              </p>
-              <ul class="content-list">
-                <li><a href="#">The Future of EdTech Leadership</a></li>
-                <li><a href="#">Building Human-Centered Systems</a></li>
-                <li><a href="#">Scaling Impact Through Innovation</a></li>
-                <li><a href="#">Strategy in Times of Uncertainty</a></li>
-                <li><a href="#">Agile Transformation in Education</a></li>
-                <li><a href="#">Art & Technology: Finding Your Path</a></li>
-              </ul>
-            </div>
+            <h3 class="mb-3">Blog Posts</h3>
+            <p class="text-muted mb-4">
+              Insights on EdTech, digital transformation, leadership, and
+              innovation. Sharing learnings from my journey bridging
+              technology, education, and human-centered design.
+            </p>
+            <ul class="list-unstyled">
+              <li class="mb-3"><a href="#" class="link-info">The Future of EdTech Leadership</a></li>
+              <li class="mb-3"><a href="#" class="link-info">Building Human-Centered Systems</a></li>
+              <li class="mb-3"><a href="#" class="link-info">Scaling Impact Through Innovation</a></li>
+              <li class="mb-3"><a href="#" class="link-info">Strategy in Times of Uncertainty</a></li>
+              <li class="mb-3"><a href="#" class="link-info">Agile Transformation in Education</a></li>
+              <li class="mb-3"><a href="#" class="link-info">Art & Technology: Finding Your Path</a></li>
+            </ul>
           </div>
           <div class="col-lg-6">
-            <div class="content-section">
-              <h3 class="content-heading">Talks & Speaking</h3>
-              <p class="content-description">
-                Speaking engagements on agile methodologies, digital
-                transformation, and educational innovation. Contributing
-                perspectives at conferences and workshops worldwide.
-              </p>
-              <ul class="content-list">
-                <li><a href="#">SXSW: EdTech Innovation Panel</a></li>
-                <li><a href="#">Tech in Education Summit Keynote</a></li>
-                <li><a href="#">Leading Digital Transformation Workshop</a></li>
-                <li><a href="#">World Innovation Forum Speaker</a></li>
-                <li><a href="#">Agile Leadership Bootcamp</a></li>
-                <li>
-                  <a href="#"
-                    >Beautiful Patterns: Building Inclusive Tech Communities</a
-                  >
-                </li>
-              </ul>
-            </div>
+            <h3 class="mb-3">Talks & Speaking</h3>
+            <p class="text-muted mb-4">
+              Speaking engagements on agile methodologies, digital
+              transformation, and educational innovation. Contributing
+              perspectives at conferences and workshops worldwide.
+            </p>
+            <ul class="list-unstyled">
+              <li class="mb-3"><a href="#" class="link-info">SXSW: EdTech Innovation Panel</a></li>
+              <li class="mb-3"><a href="#" class="link-info">Tech in Education Summit Keynote</a></li>
+              <li class="mb-3"><a href="#" class="link-info">Leading Digital Transformation Workshop</a></li>
+              <li class="mb-3"><a href="#" class="link-info">World Innovation Forum Speaker</a></li>
+              <li class="mb-3"><a href="#" class="link-info">Agile Leadership Bootcamp</a></li>
+              <li class="mb-3"><a href="#" class="link-info">Beautiful Patterns: Building Inclusive Tech Communities</a></li>
+            </ul>
           </div>
         </div>
       </div>
