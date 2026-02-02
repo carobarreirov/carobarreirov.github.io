@@ -62,3 +62,15 @@ window.addEventListener("scroll", () => {
     }
   });
 });
+
+// Disable links in Blog and Talks section (non-destructive)
+// This sets aria-disabled and removes links from the tab order for accessibility
+// and adds a defensive click handler in case styles are overridden.
+document.querySelectorAll("#content a").forEach((a) => {
+  a.setAttribute("aria-disabled", "true");
+  a.setAttribute("tabindex", "-1");
+  a.addEventListener("click", (e) => {
+    e.preventDefault();
+  });
+  a.classList.add("disabled-link");
+});

@@ -117,3 +117,20 @@ body {
     left: 10px;
   }
 }
+
+/* Disable links in Blog and Talks Section */
+#content a,
+#content a.link-info {
+  /* Prevent mouse/touch interaction */
+  pointer-events: none;
+  cursor: default;
+  /* Make them look non-interactive */
+  color: inherit !important;
+  text-decoration: none !important;
+  opacity: 0.85;
+}
+
+/* Accessibility: ensure disabled links are not focusable */
+#content a[aria-disabled="true"] {
+  outline: none;
+}
