@@ -66,9 +66,7 @@
         <h1 class="display-4 fw-bold mb-3">Carolina Barreiro Valdez</h1>
         <p class="lead text-muted mx-auto" style="max-width: 800px;">
           I study and design systems where education, technology and innovation
-          intersect. <br>
-          Not to optimise them, but to question how they are shaped
-          and who they serve. <hr class="my-3"/>
+          intersect. <br> <hr class="my-3"/>
           My work bridges research and practice to turn complexity into
           conscious action. <br>
           Guided by intellectual integrity, responsibility
@@ -303,11 +301,9 @@
               innovation. Sharing learnings from my journey bridging
               technology, education, and human-centered design.
             </p>
-            <ul class="list-unstyled">
-              <li class="mb-3"><a href="#" class="link-info">The Future of EdTech Leadership</a></li>
-              <li class="mb-3"><a href="#" class="link-info">Building Human-Centered Systems</a></li>
-              <li class="mb-3"><a href="#" class="link-info">Scaling Impact Through Innovation</a></li>
-
+            <!-- Dynamically populated list (from assets/annex.json) -->
+            <ul id="blog-list" class="list-unstyled mb-0">
+              <!-- items injected by JavaScript -->
             </ul>
           </div>
           <div class="col-lg-6">
@@ -330,6 +326,47 @@
       </div>
     </section>
 
+    <!-- Offcanvas PDF viewer (right-side) -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="pdfOffcanvas" aria-labelledby="pdfOffcanvasLabel">
+      <!-- Close button row (top-right) -->
+      <div class="offcanvas-header align-items-start">
+        <button type="button" class="btn-close ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+
+      <!-- Title + controls (below the close button) -->
+      <div class="p-3 border-bottom">
+        <div class="d-flex justify-content-between align-items-start">
+          <div>
+            <h5 id="offcanvasTitle" class="h6 mb-1">Preview</h5>
+            <small id="offcanvasCounter" class="text-muted">0 / 0</small>
+          </div>
+          <div class="d-flex gap-2 align-items-center">
+            <div class="btn-group btn-group-sm me-2" role="group" aria-label="Navigation">
+              <button id="prevBtn" class="btn btn-outline-secondary" type="button" title="Previous">‹ Prev</button>
+              <button id="nextBtn" class="btn btn-outline-secondary" type="button" title="Next">Next ›</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="offcanvas-body d-flex flex-column p-0">
+        <div class="flex-fill position-relative overflow-auto p-3">
+          <div class="pdf-frame-wrap bg-white rounded shadow-sm p-3 position-relative" style="min-height:400px;">
+            <div id="pdfSpinner" class="position-absolute top-50 start-50 translate-middle d-none">
+              <div class="spinner-border text-secondary" role="status"><span class="visually-hidden">Loading...</span></div>
+            </div>
+
+            <iframe id="pdfViewer" src="" frameborder="0" style="width:100%; height:80vh;" title="PDF preview"></iframe>
+
+            <div id="pdfFallback" class="position-absolute top-0 start-0 w-100 h-100 d-none bg-white d-flex align-items-center justify-content-center p-3">
+              <p id="pdfFallbackText" class="text-muted m-0 text-center">Preview not available</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Footer -->
     <footer class="bg-dark text-light py-4 mt-5" data-bs-theme="dark">
       <div class="container-lg text-center">
@@ -341,5 +378,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <script src="index.js"></script>
+    <script src="content-annex.js"></script>
   </body>
 </html>
