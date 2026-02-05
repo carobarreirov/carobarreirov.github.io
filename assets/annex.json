@@ -1,5 +1,10 @@
 [
   {
+    "id": "paper-0",
+    "title": "Leadership, Culture and Constraint in Mexican EdTech",
+    "file": "assets/papers/mexican-edtech_thesis.pdf"
+  },
+  {
     "id": "paper-1",
     "title": "Modular Innovation Proposal on Beautiful Patterns",
     "file": "assets/papers/modular-innovation_proposal.pdf"
