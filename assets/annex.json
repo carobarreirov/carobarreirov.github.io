@@ -1,17 +1,22 @@
 [
   {
     "id": "paper-1",
+    "title": "Modular Innovation Proposal on Beautiful Patterns",
+    "file": "assets/papers/modular-innovation_proposal.pdf"
+  },
+  {
+    "id": "paper-2",
+    "title": "Digital Teaching Community for Beautiful Patterns",
+    "file": "assets/papers/digital-transformation_proposal.pdf"
+  },
+  {
+    "id": "paper-3",
     "title": "Tech-Savvy Human Paradox",
     "file": "assets/papers/tech-savvy_human_paradox.pdf"
   },
   {
-    "id": "paper-2",
-    "title": "Placeholder",
-    "file": "assets/papers/tech-savvy_human_paradox.pdf"
-  },
-  {
-    "id": "paper-3",
-    "title": "Placeholder",
-    "file": "assets/papers/tech-savvy_human_paradox.pdf"
+    "id": "paper-4",
+    "title": "Operational Strategy Analysis",
+    "file": "assets/papers/barreiro-operations.pdf"
   }
 ]
