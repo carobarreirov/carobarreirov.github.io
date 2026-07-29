@@ -1,12 +1,14 @@
 // Language toggle for CV bio
-document.querySelectorAll(".lang-btn, .bio-lang-btn").forEach((btn) => {
+document.querySelectorAll(".bio-lang-btn").forEach((btn) => {
   btn.addEventListener("click", function () {
     const lang = this.getAttribute("data-lang");
     const buttonGroup = this.parentElement;
     buttonGroup.querySelectorAll("button").forEach((b) => {
       b.classList.remove("active");
+      b.setAttribute("aria-pressed", "false");
     });
     this.classList.add("active");
+    this.setAttribute("aria-pressed", "true");
 
     const contentContainer = this.closest("section");
     contentContainer
@@ -64,3 +66,7 @@ window.addEventListener("scroll", () => {
 });
 
 // Annex-driven Blog Posts + Offcanvas PDF viewer moved to `content-annex.js`
+
+// Dynamic copyright year
+const copyrightYearEl = document.getElementById("copyright-year");
+if (copyrightYearEl) copyrightYearEl.textContent = new Date().getFullYear();
