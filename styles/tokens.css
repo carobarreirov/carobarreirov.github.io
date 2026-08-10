@@ -1,0 +1,99 @@
+:root,
+:root[data-theme="terracotta"] {
+  color-scheme: light;
+  --surface-page: #f6f0e8;
+  --surface-raised: #fffaf4;
+  --surface-soft: #e6b7be;
+  --surface-strong: #a54432;
+  --text-primary: #251d1a;
+  --text-muted: #6f625d;
+  --text-on-strong: #fffaf4;
+  --accent-primary: #a54432;
+  --accent-secondary: #b62b45;
+  --accent-soft: #e6b7be;
+  --border-color: #ccb9ad;
+  --header-background: rgb(246 240 232 / 92%);
+  --backdrop-color: rgb(37 29 26 / 55%);
+  --selection-background: #b62b45;
+  --selection-color: #fff;
+  --theme-color: #f6f0e8;
+
+  --font-display:
+    "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia,
+    serif;
+  --font-body:
+    "Avenir Next", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-meta:
+    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    monospace;
+
+  --step--1: clamp(0.76rem, 0.72rem + 0.18vw, 0.88rem);
+  --step-0: clamp(1rem, 0.95rem + 0.2vw, 1.125rem);
+  --step-1: clamp(1.2rem, 1.05rem + 0.65vw, 1.6rem);
+  --step-2: clamp(1.6rem, 1.2rem + 1.5vw, 2.55rem);
+  --step-3: clamp(2.2rem, 1.4rem + 3.2vw, 4.4rem);
+  --step-4: clamp(3.3rem, 1.8rem + 6.5vw, 7.8rem);
+
+  --space-1: 0.5rem;
+  --space-2: 0.75rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2rem;
+  --space-6: 3rem;
+  --space-7: 4.5rem;
+  --space-8: 7rem;
+  --space-9: 10rem;
+
+  --shell: 76rem;
+  --gutter: clamp(1.25rem, 4vw, 3.5rem);
+  --border-thin: 1px solid var(--border-color);
+  --border-strong: 2px solid currentColor;
+  --radius-small: 0.2rem;
+  --radius-pill: 100vw;
+
+  --duration-fast: 160ms;
+  --duration-base: 360ms;
+  --duration-slow: 700ms;
+  --ease-standard: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-expressive: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+:root[data-theme="rose"] {
+  color-scheme: light;
+  --surface-page: #f8ecee;
+  --surface-raised: #fff8f7;
+  --surface-soft: #dca1ad;
+  --surface-strong: #a72f4b;
+  --text-primary: #2a1d21;
+  --text-muted: #765e66;
+  --text-on-strong: #fff8f7;
+  --accent-primary: #a72f4b;
+  --accent-secondary: #a54432;
+  --accent-soft: #e9bbc3;
+  --border-color: #ceb3b9;
+  --header-background: rgb(248 236 238 / 92%);
+  --backdrop-color: rgb(42 29 33 / 58%);
+  --selection-background: #a54432;
+  --selection-color: #fff;
+  --theme-color: #f8ecee;
+}
+
+:root[data-theme="ink"] {
+  color-scheme: dark;
+  --surface-page: #1e1817;
+  --surface-raised: #29211f;
+  --surface-soft: #563a39;
+  --surface-strong: #e0856f;
+  --text-primary: #f7f0e8;
+  --text-muted: #c8b8b0;
+  --text-on-strong: #211817;
+  --accent-primary: #e0856f;
+  --accent-secondary: #e59aaa;
+  --accent-soft: #563a39;
+  --border-color: #594945;
+  --header-background: rgb(30 24 23 / 92%);
+  --backdrop-color: rgb(0 0 0 / 72%);
+  --selection-background: #e59aaa;
+  --selection-color: #211817;
+  --theme-color: #1e1817;
+}

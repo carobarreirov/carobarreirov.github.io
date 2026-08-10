@@ -1,0 +1,109 @@
+.site-nav,
+.publication,
+.practice-card,
+.text-link,
+.button,
+.speaking a,
+.dialog-close,
+.dialog-navigation button {
+  transition:
+    color var(--duration-base) var(--ease-standard),
+    background-color var(--duration-base) var(--ease-standard),
+    border-color var(--duration-base) var(--ease-standard),
+    opacity var(--duration-base) var(--ease-standard),
+    transform var(--duration-base) var(--ease-standard);
+}
+
+.text-link:hover,
+.speaking a:hover {
+  color: var(--accent-primary);
+}
+
+.text-link--arrow span,
+.speaking a span:last-child {
+  transition: transform var(--duration-base) var(--ease-standard);
+}
+
+.text-link--arrow:hover span,
+.speaking a:hover span:last-child {
+  transform: translate(0.2rem, -0.2rem);
+}
+
+.experience-item {
+  transition: background-color var(--duration-base) var(--ease-standard);
+}
+
+.experience-item:hover {
+  background: var(--surface-raised);
+}
+
+.document-dialog {
+  opacity: 0;
+  transform: translateY(1.5rem) scale(0.985);
+  transition:
+    opacity var(--duration-base) var(--ease-expressive),
+    transform var(--duration-base) var(--ease-expressive),
+    display var(--duration-base) allow-discrete,
+    overlay var(--duration-base) allow-discrete;
+}
+
+.document-dialog[open] {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+@starting-style {
+  .document-dialog[open] {
+    opacity: 0;
+    transform: translateY(1.5rem) scale(0.985);
+  }
+}
+
+.document-dialog::backdrop {
+  opacity: 0;
+  transition:
+    opacity var(--duration-base) var(--ease-standard),
+    display var(--duration-base) allow-discrete,
+    overlay var(--duration-base) allow-discrete;
+}
+
+.document-dialog[open]::backdrop {
+  opacity: 1;
+}
+
+@starting-style {
+  .document-dialog[open]::backdrop {
+    opacity: 0;
+  }
+}
+
+.loading-mark {
+  animation: loading-spin 900ms linear infinite;
+}
+
+@keyframes loading-spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: var(--duration-base);
+  animation-timing-function: var(--ease-standard);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

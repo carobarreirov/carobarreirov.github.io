@@ -1,0 +1,8 @@
+.git/
+node_modules/
+coverage/
+dist/
+assets/**/*.ico
+assets/**/*.jpg
+assets/**/*.png
+assets/**/*.pdf
